@@ -1,5 +1,7 @@
 """
-Find the sum of all even expressions of the Fibonacci sequence less than 1000000.
+Find the sum of all even expressions
+of the Fibonacci sequence
+less than 1000000.
 """
 
 
