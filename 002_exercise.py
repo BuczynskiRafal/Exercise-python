@@ -1,6 +1,8 @@
 """
 Find the numbers_sum of all the numbers divisible by 5 and 7 smaller than 100
 """
+
+
 # numbers_sum = 0
 # for number in range(0, 100):
 #     if number % 5 == 0 or number % 7 == 0:
