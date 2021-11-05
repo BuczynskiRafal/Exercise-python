@@ -11,7 +11,7 @@ class Person:
         return len(Person.instances)
 
 
-p1 = Person(first_name='Romek', last_name='Tomek')
-p2 = Person(first_name='Cezary', last_name='Cezary')
+p1 = Person(first_name="Romek", last_name="Tomek")
+p2 = Person(first_name="Cezary", last_name="Cezary")
 
 print(p2.count_instances())

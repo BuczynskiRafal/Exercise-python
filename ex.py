@@ -7,9 +7,10 @@ jeśli użyjesz 1 i 2 równocześnie?
 
 
 def time():
-    d1 = 50 / (10*60)        # sekundy
-    d2 = 50 / (30*60)        # sekundy
+    d1 = 50 / (10 * 60)  # sekundy
+    d2 = 50 / (30 * 60)  # sekundy
     ile_czasu_100 = 100 / (d1 + d1)
-    print(ile_czasu_100/60)
+    print(ile_czasu_100 / 60)
+
 
 time()

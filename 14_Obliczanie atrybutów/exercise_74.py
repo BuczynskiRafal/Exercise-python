@@ -21,5 +21,6 @@ class Circle:
             self._area = math.pi * self._radius * self._radius
         return self._area
 
+
 circle = Circle(3)
 print(round(circle.area, 4))

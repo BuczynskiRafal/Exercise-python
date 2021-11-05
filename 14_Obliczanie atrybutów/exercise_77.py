@@ -1,5 +1,4 @@
 class Rectangle:
-
     def __init__(self, width, height):
         self.width = width
         self.height = height
@@ -40,4 +39,6 @@ class Rectangle:
 
 
 rectangle = Rectangle(3, 4)
-print(f"width: {rectangle.width}, height: {rectangle.height} -> perimeter: {rectangle.perimeter}")
+print(
+    f"width: {rectangle.width}, height: {rectangle.height} -> perimeter: {rectangle.perimeter}"
+)

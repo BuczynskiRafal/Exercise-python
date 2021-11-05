@@ -18,10 +18,14 @@ by the product of two-digit numbers.
 
 
 def calculate():
-    return max([x * y
-                for x in range(10, 100)
-                for y in range(10, 100)
-                if str(x * y) == str(x * y)[::-1]])
+    return max(
+        [
+            x * y
+            for x in range(10, 100)
+            for y in range(10, 100)
+            if str(x * y) == str(x * y)[::-1]
+        ]
+    )
 
 
 print(calculate())
