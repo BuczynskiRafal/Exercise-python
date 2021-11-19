@@ -1,6 +1,6 @@
 def stick(*args):
-    joined = [arg for arg in args if isinstance(arg, str)]
-    return '#'.join(*args)
+    args = [arg for arg in args if isinstance(arg, str)]
+    return '#'.join(args)
 
 
 print(stick('sport', 'summer'))
