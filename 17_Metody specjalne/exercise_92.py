@@ -13,9 +13,9 @@ class Vector:
         return len(self.components)
 
     def __bool__(self):
-        if self.components[0] == 0:
+        if not self.components:
             return False
-        return True
+        return False if not self.components[0] else True
 
 
 v1 = Vector()
