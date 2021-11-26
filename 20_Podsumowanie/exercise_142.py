@@ -4,8 +4,8 @@ class ClientList(list):
         result = [client for client in self if value in client.email]
         return result
 
-
 class Client:
+
     all_clients = ClientList()
 
     def __init__(self, name, email):
@@ -21,4 +21,5 @@ client1 = Client('Tom', 'sample@gmail.com')
 client2 = Client('Donald', 'sales@gmail.com')
 client3 = Client('Mike', 'sales@yahoo.com')
 client4 = Client('Lisa', 'info@gmail.com')
-print(Client.all_clients.search_email('sales'))
+
+print([client.name for client in Client.all_clients.search_email('sales')])
