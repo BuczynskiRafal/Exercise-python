@@ -64,7 +64,7 @@ class CustomDate:
 
 
     @classmethod
-    def 
+    def
 
 
 
