@@ -1,8 +1,9 @@
 class EmptyStackError(Exception):
     pass
 
+
 class Stack:
-    """A simplest stack."""
+    """The simplest stack."""
 
     def __init__(self):
         self._data = []
@@ -14,12 +15,13 @@ class Stack:
         self._data.append(item)
 
     def pop(self):
-        if len(self._data) == 0:
+        if self.is_empty():
             raise EmptyStackError('The stack is empty.')
         return self._data.pop()
 
+    def is_empty(self):
+        return len(self._data) == 0
 
-techs = Stack()
-techs.push('python')
-techs.push('sql')
-print(len(techs))
+
+def is_palindrome(text):
+    return True if text == text[::-1] else False
