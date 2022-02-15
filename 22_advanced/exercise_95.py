@@ -27,6 +27,13 @@ class Stack:
             raise EmptyStackError('The stack is empty.')
         return self._data[-1]
 
+    @staticmethod
+    def is_valid_expresion(expression):
+        if expression.count('(') != expression.count(')') or expression.count('[') != expression.count(']') or expression.count('{') != expression.count('}'):
+            return False
+        else:
+            return True
+
 
 
 
